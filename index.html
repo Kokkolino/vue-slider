@@ -12,12 +12,13 @@
     <!-- content -->
     <section id="root">
 
-        <i class="fa-solid fa-arrow-left"></i>
+        <i class="fa-solid fa-arrow-left" @click="slideLeft"></i>
         <section id="imgSection">
-            <img src="./assets/img/cat.jpg" alt="">
+            <img :src="imgObj[index].source" alt="">
         </section>
-        <i class="fa-solid fa-arrow-right"></i>
+        <i class="fa-solid fa-arrow-right" @click="slideRight"></i>
         <div id="dots">
+            
         </div>
     </section>
     <!-- scripts -->
