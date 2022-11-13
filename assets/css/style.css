@@ -3,3 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#imgSection{
+    width: 800px;
+}
+
+img{
+    width: 100%;
+}
+
+.fa-solid{
+    margin: 30px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+#dots{
+    flex-basis: 100%;
+}
