@@ -13,7 +13,6 @@ var app = new Vue({
     methods: {
         slideLeft: function(){
             const max = this.imgObj.length - 1;
-            console.log(max)
             if(this.index == 0){
                 return this.index = max;
             }
@@ -28,4 +27,4 @@ var app = new Vue({
         }
 
     }
-  })
+})

@@ -36,5 +36,14 @@ img{
 }
 
 #dots{
+    margin-top: 10px;
     flex-basis: 100%;
+    text-align: center;
+}
+
+.fa-circle{
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0;
+    margin: 6px;
 }

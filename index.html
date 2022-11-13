@@ -18,7 +18,16 @@
         </section>
         <i class="fa-solid fa-arrow-right" @click="slideRight"></i>
         <div id="dots">
-            
+            <i class="fa-solid fa-circle" v-if="index==0"></i>
+            <i class="fa-regular fa-circle" v-else v-on:click="index = 0"></i>
+            <i class="fa-solid fa-circle" v-if="index==1"></i>
+            <i class="fa-regular fa-circle" v-else v-on:click="index = 1"></i>
+            <i class="fa-solid fa-circle" v-if="index==2"></i>
+            <i class="fa-regular fa-circle" v-else v-on:click="index = 2"></i>
+            <i class="fa-solid fa-circle" v-if="index==3"></i>
+            <i class="fa-regular fa-circle" v-else v-on:click="index = 3"></i>
+            <i class="fa-solid fa-circle" v-if="index==4"></i>
+            <i class="fa-regular fa-circle" v-else v-on:click="index = 4"></i>
         </div>
     </section>
     <!-- scripts -->
